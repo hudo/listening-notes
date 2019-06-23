@@ -1,0 +1,55 @@
+title: Listening Notes
+description: My Personal HIFI listening notes
+author: Hrvoje Hudo
+github: https://github.com/hudo/listening-notes
+about: About
+disqus_shortname: hudos-listening-notes
+google_analytics: UA-XXXXXXXX-Y
+avatar_url: /static/img/avatar.jpg
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-twitter
+      link: "https://twitter.com/hhrvoje"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/hrvojeh/"
+    - icon: fa-github
+      link: "https://github.com/hudo"
+
+share:
+  twitter_username: hhrvoje
+  fb_appid: 
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: Album picks
+      url: /albums/
+    - text: Hifi Brands
+      url: /brands/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://github.com/hudo"
+baseurl: ""
+paginate: 40
+per_page: 40
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
